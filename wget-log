@@ -1,0 +1,11 @@
+--2023-02-04 18:57:44--  https://play.google.com/store/apps/details?id=com.chainapsis.keplr
+Resolving play.google.com (play.google.com)... 142.250.74.14, 2a00:1450:400f:800::200e
+Connecting to play.google.com (play.google.com)|142.250.74.14|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘details?id=com.chainapsis.keplr’
+
+details?id=com.chainapsis.keplr                    [<=>                                                                                                 ]       0  --.-KB/s               details?id=com.chainapsis.keplr                    [ <=>                                                                                                ] 861.86K  --.-KB/s    in 0.08s   
+
+2023-02-04 18:57:45 (11.1 MB/s) - ‘details?id=com.chainapsis.keplr’ saved [882546]
+
