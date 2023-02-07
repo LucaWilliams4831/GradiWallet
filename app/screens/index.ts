@@ -3,5 +3,5 @@ export * from "./WelcomeScreen"
 export * from "./LoginScreen"
 
 // @demo remove-block-end
-export * from "./ErrorScreen/ErrorBoundary"
+export * from "./errorscreen/errorboundary"
 // export other screens here
