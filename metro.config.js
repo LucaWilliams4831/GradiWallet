@@ -39,11 +39,13 @@ if (isExpo) {
       projectRoot: __dirname,
       // watchFolders: [`${__dirname}/../..`], // for monorepos
       resolver: {
+        
         /**
          * This custom resolver is for if you're using symlinks.
          *
          * You can disable it if you're not using pnpm or a monorepo or symlinks.
          */
+   
         resolveRequest: MetroSymlinksResolver(),
         assetExts: [...defaultConfig.resolver.assetExts, "bin"],
       },
