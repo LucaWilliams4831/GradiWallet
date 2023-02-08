@@ -1,6 +1,6 @@
 const { getDefaultConfig } = require("metro-config")
 const { getDefaultConfig: getDefaultExpoConfig } = require("@expo/metro-config")
-
+const path = require("path");
 let metroConfig
 let isExpo = false
 try {
@@ -39,7 +39,14 @@ if (isExpo) {
       projectRoot: __dirname,
       // watchFolders: [`${__dirname}/../..`], // for monorepos
       resolver: {
-        
+            extraNodeModules: {
+              crypto: path.resolve(
+                __dirname,
+                "./node_modules/react-native-crypto-polyfill"
+              ),
+              http: path.resolve(__dirname, "./node_modules/http-browserify"),
+              https: path.resolve(__dirname, "./node_modules/https-browserify"),
+          },
         /**
          * This custom resolver is for if you're using symlinks.
          *
